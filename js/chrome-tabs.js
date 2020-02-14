@@ -99,7 +99,7 @@
         if ([this.el, this.tabContentEl].includes(event.target)) this.addTab()
       })
 
-      this.tabEls.forEach((tabEl) => this.setTabCloseEventListener(tabEl))
+      // this.tabEls.forEach((tabEl) => this.setTabCloseEventListener(tabEl))
     }
 
     get tabEls() {
